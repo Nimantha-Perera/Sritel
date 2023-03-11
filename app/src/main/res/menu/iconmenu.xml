@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item android:id="@+id/menu_call"
+        android:icon="@drawable/baseline_notifications_none_24"
+        android:title="Notifications"/>
+    <item android:id="@+id/menu_mass"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Logout"/>
+    <group android:id="@+id/ver"
+        >
+        <item android:id="@+id/cc"
+
+            android:title="Version 1.0"
+            android:enabled="false"
+
+            />
+    </group>
+</menu>
